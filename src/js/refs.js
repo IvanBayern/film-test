@@ -1,7 +1,8 @@
-export default {
-  
-  filmotekaList: document.querySelector('#filmoteka-list'),
-  libraryList: document.querySelector('#library-list'),
-  header: document.querySelector('.header'),
-  subtitle: document.querySelector('.filmoteka__subtitle'),
+export { refs };
+
+const refs = {
+  closeModalButton: document.querySelector('button[data-modal-close]'),
+  backdrop: document.querySelector('.backdrop'),
+  filmContainer: document.querySelector('.film__container'),
 };
+// console.log(refs.);
