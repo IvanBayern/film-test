@@ -1,3 +1,25 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--major-font-family);
+    color: var(--primary-color);
+    letter-spacing: 0.08em;
+
+    min-height: 100vh;
+
+    position: relative;
+    overflow-x: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -5,28 +27,31 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
-  padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .list {
-  list-style: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.link {
-  text-decoration: none;
-}
-
-.container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 32px;
-  padding-right: 32px;
+a {
+    text-decoration: none;
+    color: inherit;
 }

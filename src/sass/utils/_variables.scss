@@ -1,0 +1,21 @@
+:root {
+  --major-font-family: 'Roboto', sans-serif;
+  --modal-fond-family: 'Fira Sans Extra Condensed', sans-serif;
+  --modal-title-style: 'Fjalla One', sans-serif;
+
+  --primary-color: #000;
+  --secondary-text-color: #545454;
+  --dark-theme-text-color: #fff;
+  --accent-color: #ff6b08;
+  --accent-text-color: #ffffff;
+  --background-accent-color: #ff6b01;
+  --style-color: #ff001b;
+
+  --background-color_bright-theme: #f7f7f7;
+  --secondary-text-modal-color: #8c8c8c;
+
+  --background-color_modal-footer: #0e0e0e;
+
+  --duration: 300ms;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

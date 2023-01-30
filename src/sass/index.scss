@@ -1,9 +1,19 @@
-@import './utils/modern-normolize';
-@import './utils/visually-hidden.scss';
-
+@import '../../node_modules/modern-normalize/modern-normalize.css';
 @import './base/common';
+@import './base/container';
 
-@import './components/header.scss';
-@import './components/library.scss';
-@import './components/film-container.scss';
-@import './components/modal.scss';
+@import './utils/templates';
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+@import './components/film-modal-window';
+@import './components/movie-card';
+@import './components/loader';
+@import './components/team-modal-window';
+@import './components/custom-pagination';
+@import './components/film-grid';
+
+@import './layout/header';
+@import './layout/footer';
+@import './layout/my_lib_header';
+@import './layout/my_lib-main';
